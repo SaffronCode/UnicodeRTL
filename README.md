@@ -1,17 +1,13 @@
-# UnicodeMTeam
+# UnicodeRTL
 The UnicodeMTeam package was created by MTeam Co
 
-This library can convert RTL Persian and Arabic type script to default TextField for the action script.
+This library can convert Persian and Arabic type script to be able to show in flash TextFields.
 
+##Sample 1 : Single line
+      
+			textField.text = UnicodeStatic.convert("هلو ورد!");
 
+##Sample 2 : Showing long texts in a small textField
 
-----------------------------------------------------
----------------------MTeam Co-----------------------
-----------------------------------------------------
+      UnicodeStatic.fastUnicodeOnLines(textField,'هلو وردز این مولتی لاین تکست فیلدز.\nنیو لاین');
 
-
-For supports contact
-technical@mteamapps.ir
-
-www.mteamapps.ir
-www.mteamapps.com
